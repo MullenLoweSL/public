@@ -1,0 +1,299 @@
+@import url("https://fonts.googleapis.com/css2?family=Audiowide&display=swap");
+@import url("https://example.com/path-to-fonts/ArreiaBlackHeavy.css");
+
+@font-face {
+  font-family: "Mona Sans";
+  src: url("Mona-Sans.ttf");
+  font-weight: normal;
+  font-style: normal;
+}
+
+body,
+html {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  height: 100%;
+  font-family: Arial, sans-serif;
+  color: #ffffff;
+}
+
+.email-container {
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: #222a35;
+}
+
+.logo-container {
+  text-align: center;
+  padding: 20px 0;
+}
+
+.logo-wrapper {
+  display: inline-block;
+  text-align: center;
+}
+
+.logo-container img {
+  max-width: 60%;
+  height: auto;
+}
+
+.logo-text {
+  font-family: "Audiowide", cursive;
+  font-size: 22px;
+  color: #ffffff;
+  margin-top: 5px;
+}
+
+.sub-logo-text {
+  font-family: "Arreia Black Heavy", sans-serif;
+  font-weight: 900;
+  font-size: 20px;
+  color: #ffffff;
+  margin-top: 40px;
+}
+
+.dashed-line {
+  width: 30%;
+  margin: 30px auto;
+  border-top: 2px dashed #c0c0c0;
+  padding: 0 25%;
+}
+
+.table-container {
+  width: 80%;
+  margin: -15px auto;
+}
+
+.table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.table th,
+.table td {
+  border-bottom: 1px solid #4b4848;
+  padding: 10px;
+  background-color: #222a35;
+  color: #bcb8b8;
+  line-height: 25px;
+  font-family: 'Mona Sans', sans-serif;
+}
+
+.table th {
+  background-color: #222a35;
+}
+
+.table td:first-child {
+  text-align: left;
+}
+
+.table td:last-child {
+  text-align: right;
+}
+
+.new-text {
+  margin-top: 20px;
+  text-align: center;
+  color: #c0c0c0;
+  font-size: 18px;
+  line-height: 1.5;
+  font-family: 'Mona Sans', sans-serif;
+
+  
+}
+
+@media (max-width: 648px) {
+  .logo-container img {
+    max-width: 50%;
+  }
+
+  .logo-text {
+    font-size: 17px;
+  }
+
+  .sub-logo-text {
+    font-size: 18px;
+  }
+
+  .table-container {
+    width: 80%;
+  }
+
+  .sub-logo-text {
+    font-family: "Arreia Black Heavy", sans-serif;
+    font-weight: 900;
+    font-size: 16px;
+    color: #ffffff;
+    margin-top: 40px;
+  }
+}
+
+@media (min-width: 500px) and (max-width: 595px) {
+  .logo-container img {
+    max-width: 55%;
+  }
+
+  .logo-text {
+    font-size: 16px;
+  }
+
+  .sub-logo-text {
+    font-size: 18px;
+  }
+
+  .table-container {
+    width: 80%;
+  }
+
+  .sub-logo-text {
+    font-family: "Arreia Black Heavy", sans-serif;
+    font-weight: 900;
+    font-size: 14px;
+    color: #ffffff;
+    margin-top: 40px;
+  }
+}
+
+@media (min-width: 448px) and (max-width: 500px) {
+  .logo-container img {
+    max-width: 63%;
+  }
+
+  .logo-text {
+    font-size: 16px;
+  }
+
+  .sub-logo-text {
+    font-size: 18px;
+  }
+
+  .table-container {
+    width: 80%;
+  }
+
+  .sub-logo-text {
+    font-family: "Arreia Black Heavy", sans-serif;
+    font-weight: 900;
+    font-size: 14px;
+    color: #ffffff;
+    margin-top: 40px;
+  }
+}
+
+@media (min-width: 400px) and (max-width: 448px) {
+  .logo-container img {
+    max-width: 68%;
+  }
+  .table-container {
+    width: 80%;
+  }
+
+  .new-text {
+    margin-top: 20px;
+    text-align: center;
+    color: #c0c0c0;
+    font-size: 14px;
+    line-height: 1.5;
+    font-family: 'Mona Sans', sans-serif;
+  }
+
+  .sub-logo-text {
+    font-family: "Arreia Black Heavy", sans-serif;
+    font-weight: 900;
+    font-size: 14px;
+    color: #ffffff;
+    margin-top: 40px;
+  }
+
+  .logo-text {
+    font-family: "Audiowide", cursive;
+    font-size: 15px;
+    color: #ffffff;
+    margin-top: 5px;
+  }
+  .table th,
+  .table td {
+    font-size: 12px;
+  }
+}
+
+@media (max-width: 400px) {
+  .logo-container img {
+    max-width: 75%;
+  }
+
+  .logo-text {
+    font-size: 14px;
+  }
+
+  .table-container {
+    width: 80%;
+  }
+
+  .table th,
+  .table td {
+    font-size: 12px;
+  }
+
+  .new-text {
+    margin-top: 20px;
+    text-align: center;
+    color: #c0c0c0;
+    font-size: 14px;
+    line-height: 1.5;
+    font-family: 'Mona Sans', sans-serif;
+  }
+
+  .sub-logo-text {
+    font-family: "Arreia Black Heavy", sans-serif;
+    font-weight: 900;
+    font-size: 14px;
+    color: #ffffff;
+    margin-top: 40px;
+  }
+}
+
+@media (max-width: 350px) {
+  .logo-container img {
+    max-width: 85%;
+  }
+
+  .sub-logo-text {
+    font-size: 18px;
+  }
+
+  .table-container {
+    width: 80%;
+  }
+
+  .table th,
+  .table td {
+    font-size: 10px;
+  }
+
+  .new-text {
+    margin-top: 20px;
+    text-align: center;
+    color: #c0c0c0;
+    font-size: 12px;
+    font-family: 'Mona Sans', sans-serif;
+  }
+
+  .sub-logo-text {
+    font-family: "Arreia Black Heavy", sans-serif;
+    font-weight: 900;
+    font-size: 10px;
+    color: #ffffff;
+    margin-top: 40px;
+  }
+
+  .logo-text {
+    font-family: "Audiowide", cursive;
+    font-size: 14px;
+    color: #ffffff;
+    margin-top: 5px;
+  }
+}
